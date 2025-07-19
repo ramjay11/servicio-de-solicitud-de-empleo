@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController @RequestMapping("/api/v1/empleados")
+@RestController @RequestMapping("/api/v1/empleados") @CrossOrigin("*")
 public class ControladorDeEmpleados {
 
     private final ServicioAlEmpleado servicioAlEmpleado;
